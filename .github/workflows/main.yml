@@ -1,0 +1,24 @@
+
+name: pyhthon_workflow
+
+on:
+  push:
+
+
+
+jobs:
+
+  build:
+
+    runs-on: macos-latest
+
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+
+    - name: Run 
+      run: python run.py
+
+
